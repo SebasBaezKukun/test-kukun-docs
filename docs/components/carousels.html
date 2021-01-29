@@ -1,0 +1,437 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Carousel · Kukun Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="A slideshow component for cycling through elements, images or slides of text like a carousel."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Carousel · Kukun Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://sebasbaezkukun.github.io/test-kukun-docs/"/><meta property="og:description" content="A slideshow component for cycling through elements, images or slides of text like a carousel."/><meta property="og:image" content="https://sebasbaezkukun.github.io/test-kukun-docs/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://sebasbaezkukun.github.io/test-kukun-docs/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/test-kukun-docs/img/kukun-logo-desktop.svg"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://sebasbaezkukun.github.io/test-kukun-docs/blog/atom.xml" title="Kukun Documentation Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://sebasbaezkukun.github.io/test-kukun-docs/blog/feed.xml" title="Kukun Documentation Blog RSS Feed"/><link rel="stylesheet" href="/css/code-block-buttons.css"/><link rel="stylesheet" href="/kukun-lib/iconography/my-kukun-icons.min.css"/><link rel="stylesheet" href="/kukun-lib/kukun-lib.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/js/code-block-buttons.js"></script><script type="text/javascript" src="/kukun-lib/kukun-lib.js"></script><script src="/test-kukun-docs/js/scrollSpy.js"></script><link rel="stylesheet" href="/test-kukun-docs/css/main.css"/><script src="/test-kukun-docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/test-kukun-docs/"><img class="logo" src="/test-kukun-docs/img/kukun-logo-desktop.svg" alt="Kukun Documentation"/><h2 class="headerTitleWithLogo">Kukun Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/test-kukun-docs/docs/getting-started/introduction" target="_self">Docs</a></li><li class=""><a href="/test-kukun-docs/blog/" target="_self">Changelog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Components</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/getting-started/introduction">Introduction</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Layout</h3><ul class=""><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/layout/breakpoints">Breakpoints</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/layout/containers">Containers</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/layout/width-options">Width options</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Content</h3><ul class=""><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/content/reboot">Reboot</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/content/typography">Typography</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Forms</h3><ul class=""><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/forms/inputs">Inputs</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/forms/checks-radios">Check &amp; Radio</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/forms/validations">Validations</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Components</h3><ul class=""><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/components/accordions">Accordion</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/components/buttons">Buttons</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/components/borders-shadows">Borders &amp; Shadows</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/components/banners">Banners</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/test-kukun-docs/docs/components/carousels">Carousel</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/components/card-box">Cards</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/components/datepicker">Datepicker</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/components/modals">Modal</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/components/pagination">Pagination</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/components/scroll-progress">Scrollbar</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/components/select-dropdown">Select dropdown</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/components/toasts">Toast</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Utilities</h3><ul class=""><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/utilities/colors">Colors</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/utilities/cursors">Cursors</a></li><li class="navListItem"><a class="navItem" href="/test-kukun-docs/docs/utilities/icons">Icons</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Carousel</h1></header><article><div><span><p>A slideshow component for cycling through elements, images or slides of text like a carousel.</p>
+<h1><a class="anchor" aria-hidden="true" id="how-to-use"></a><a href="#how-to-use" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to use</h1>
+<p>You need add the HTML of component and initialize it with javascript <code>$kl.Carousel.init()</code></p>
+<h2><a class="anchor" aria-hidden="true" id="traditional"></a><a href="#traditional" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Traditional</h2>
+<div class="kukun-docs-example">
+    <div class="k-carousel" id="carousel_main" tabindex="-1">
+        <button type="button" class="k-carousel-arrow k-carousel-arrow-prev">
+            <i class="k-icon-arrow-left-bold k-icon-color-principal"></i>
+        </button>
+        <div class="k-carousel-boxes-wrapper">
+            <!-- // -->
+            <div class="k-carousel-box k-width-100" style=" height: 400px;  background-image: url(https://content.mykukun.com/wp-content/uploads/2021/01/22062735/Garage-windows.jpg)">
+                <a href="#" target="_blank" class="link-container">
+                </a>
+            </div>
+            <div class="k-carousel-box k-width-100" style="height: 400px; background-image: url(https://content.mykukun.com/wp-content/uploads/2021/01/22074419/home-inventory.jpg)">
+                <a href="#" target="_blank" class="link-container">
+                </a>
+            </div>
+            <div class="k-carousel-box k-width-100"
+                style="background-image: url(https://content.mykukun.com/wp-content/uploads/2021/01/22091720/Sell-My-Home-Online.jpg); height: 400px;">
+                <a href="#" target="_blank"
+                    class="link-container">
+                </a>
+            </div>
+            <!-- //  -->
+        </div>
+        <button type="button" class="k-carousel-arrow k-carousel-arrow-next">
+            <i class="k-icon-arrow-right-bold k-icon-color-principal"></i>
+        </button>
+    </div>
+</div>
+<script>
+const carouselMain = document.querySelector('#carousel_main');
+let carousel_main = $kl.Carousel.init(carouselMain);
+</script>
+<p><strong>Add HTML</strong></p>
+<pre><code class="hljs"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"carousel_main"</span> <span class="hljs-attr">tabindex</span>=<span class="hljs-string">"-1"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-arrow k-carousel-arrow-prev"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-icon-arrow-left-bold k-icon-color-principal"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-boxes-wrapper"</span>&gt;</span>
+        <span class="hljs-comment">&lt;!-- // --&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-box k-width-100"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">" height: 400px;  background-image: url(https://content.mykukun.com/wp-content/uploads/2021/01/22062735/Garage-windows.jpg)"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">target</span>=<span class="hljs-string">"_blank"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"link-container"</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-box k-width-100"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"height: 400px; background-image: url(https://content.mykukun.com/wp-content/uploads/2021/01/22074419/home-inventory.jpg)"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">target</span>=<span class="hljs-string">"_blank"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"link-container"</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-box k-width-100"</span>
+            <span class="hljs-attr">style</span>=<span class="hljs-string">"background-image: url(https://content.mykukun.com/wp-content/uploads/2021/01/22091720/Sell-My-Home-Online.jpg); height: 400px;"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">target</span>=<span class="hljs-string">"_blank"</span>
+                <span class="hljs-attr">class</span>=<span class="hljs-string">"link-container"</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-comment">&lt;!-- //  --&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-arrow k-carousel-arrow-next"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-icon-arrow-right-bold k-icon-color-principal"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p><strong>And initialize the component</strong></p>
+<pre><code class="hljs"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">const</span> carouselMain = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#carousel_main'</span>);
+    <span class="hljs-keyword">let</span> carousel_main = $kl.Carousel.init(carouselMain);
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="infinite--continuous"></a><a href="#infinite--continuous" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Infinite &amp; continuous</h2>
+<div class="kukun-docs-example">
+    <div class="k-carousel" id="headband-carousel" tabindex="-1">
+        <button type="button" class="k-carousel-arrow k-carousel-arrow-prev">
+            <i class="k-icon-arrow-left-1"></i>
+        </button>
+        <div class="k-carousel-boxes-wrapper">
+            <div class="k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"
+                style="background-image: url(https://picsum.photos/500/500); height: 120px">
+                <div class="bg-box bg-lazy-load">
+                    <a href="#" class="bottom-info">
+                        <p class="k-content">&nbsp; Content</p>
+                    </a>
+                </div>
+            </div>
+            <div class="k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"
+                style="background-image: url(https://picsum.photos/500/500); height: 120px">
+                <div class="bg-box bg-lazy-load">
+                    <a href="#" class="bottom-info">
+                        <p class="k-content">&nbsp; Content</p>
+                    </a>
+                </div>
+            </div>
+            <div class="k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"
+                style="background-image: url(https://picsum.photos/500/500); height: 120px">
+                <div class="bg-box bg-lazy-load">
+                    <a href="#" class="bottom-info">
+                        <p class="k-content">&nbsp; Content</p>
+                    </a>
+                </div>
+            </div>
+            <div class="k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"
+                style="background-image: url(https://picsum.photos/500/500); height: 120px">
+                <div class="bg-box bg-lazy-load">
+                    <a href="#" class="bottom-info">
+                        <p class="k-content">&nbsp; Content</p>
+                    </a>
+                </div>
+            </div>
+            <!-- //  -->
+        </div>
+        <button type="button" class="k-carousel-arrow k-carousel-arrow-next">
+            <i class="k-icon-arrow-right-1"></i>
+        </button>
+    </div>
+</div>
+<script>
+const carouselHeandBand = document.querySelector('#headband-carousel');
+let carousel = $kl.Carousel.init(carouselHeandBand, {
+    type: 'continuous',
+    speed: 20,
+    draggable: true
+});
+</script>
+<p><strong>Add HTML</strong></p>
+<pre><code class="hljs"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"headband-carousel"</span> <span class="hljs-attr">tabindex</span>=<span class="hljs-string">"-1"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-arrow k-carousel-arrow-prev"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-icon-arrow-left-1"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-boxes-wrapper"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"</span>
+            <span class="hljs-attr">style</span>=<span class="hljs-string">"background-image: url(https://picsum.photos/500/500); height: 120px"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bg-box bg-lazy-load"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bottom-info"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-content"</span>&gt;</span>Content<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"</span>
+            <span class="hljs-attr">style</span>=<span class="hljs-string">"background-image: url(https://picsum.photos/500/500); height: 120px"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bg-box bg-lazy-load"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bottom-info"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-content"</span>&gt;</span>Content<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"</span>
+            <span class="hljs-attr">style</span>=<span class="hljs-string">"background-image: url(https://picsum.photos/500/500); height: 120px"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bg-box bg-lazy-load"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bottom-info"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-content"</span>&gt;</span>Content<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"</span>
+            <span class="hljs-attr">style</span>=<span class="hljs-string">"background-image: url(https://picsum.photos/500/500); height: 120px"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bg-box bg-lazy-load"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bottom-info"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-content"</span>&gt;</span>Content<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-comment">&lt;!-- //  --&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel-arrow k-carousel-arrow-next"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-icon-arrow-right-1"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p><strong>And initialize the component</strong></p>
+<pre><code class="hljs"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">const</span> carouselHeandBand = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#headband-carousel'</span>);
+    <span class="hljs-keyword">let</span> carousel = $kl.Carousel.init(carouselHeandBand, {
+        <span class="hljs-attr">type</span>: <span class="hljs-string">'continuous'</span>,
+        <span class="hljs-attr">speed</span>: <span class="hljs-number">20</span>,
+        <span class="hljs-attr">draggable</span>: <span class="hljs-literal">true</span>
+    });
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<p>You can add class <code>.k-carousel-posts</code> to load specific styles of the posts.</p>
+<div class="kukun-docs-example">
+    <div class="k-carousel k-carousel-posts" id="kukun_carousel_posts" tabindex="-1">
+        <button type="button" class="k-carousel-arrow k-carousel-arrow-prev">
+            <i class="k-icon-arrow-left-1"></i>
+        </button>
+        <div class="k-carousel-boxes-wrapper">
+            <div class="k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"
+                style="background-image: url(https://picsum.photos/500/500)">
+                <div class="bg-box bg-lazy-load">
+                    <a href="#" class="bottom-info">
+                        <h5 class="k-h5 title">Title</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"
+                style="background-image: url(https://picsum.photos/500/500)">
+                <div class="bg-box bg-lazy-load">
+                    <a href="#" class="bottom-info">
+                        <h5 class="k-h5 title">Title</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"
+                style="background-image: url(https://picsum.photos/500/500)">
+                <div class="bg-box bg-lazy-load">
+                    <a href="#" class="bottom-info">
+                        <h5 class="k-h5 title">Title</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"
+                style="background-image: url(https://picsum.photos/500/500)">
+                <div class="bg-box bg-lazy-load">
+                    <a href="#" class="bottom-info">
+                        <h5 class="k-h5 title">Title</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="k-carousel-box k-width-100 k-width-md-48 k-width-lg-33"
+                style="background-image: url(https://picsum.photos/500/500)">
+                <div class="bg-box bg-lazy-load">
+                    <a href="#" class="bottom-info">
+                        <h5 class="k-h5 title">Title</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="k-carousel-arrow k-carousel-arrow-next">
+            <i class="k-icon-arrow-right-1"></i>
+        </button>
+    </div>
+</div>
+<script>
+const carouselPostsE = document.querySelector('#kukun_carousel_posts');
+let carouselPosts = $kl.Carousel.init(carouselPostsE, {
+    type: 'continuous',
+    speed: 20,
+    draggable: true
+});
+</script>
+<pre><code class="hljs"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"k-carousel k-carousel-posts"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"kukun_carousel_posts"</span> <span class="hljs-attr">tabindex</span>=<span class="hljs-string">"-1"</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- //  --&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="simple-draggable"></a><a href="#simple-draggable" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Simple draggable</h2>
+<style>
+    .example-carousel {
+        max-width: 700px
+    }
+    .example-carousel .k-carousel-box {
+        border: 1px solid;
+        min-width: 120px;
+        height: 120px !important;
+    }
+</style>
+<div class="kukun-docs-example">
+    <div class="k-carousel k-carousel-simple example-carousel" id="k_simple_carousel">
+        <button type="button" class="k-carousel-arrow k-carousel-arrow-prev">
+            <i class="k-icon-arrow-left-1"></i>
+        </button>
+        <div class="k-carousel-boxes-wrapper k-carousel-simple-boxes-wrapper">
+            <div class="k-carousel-box">
+                &nbsp; Box
+            </div>
+            <div class="k-carousel-box">
+                &nbsp; Box
+            </div>
+            <div class="k-carousel-box">
+                &nbsp; Box
+            </div>
+            <div class="k-carousel-box">
+                &nbsp; Box
+            </div>
+            <div class="k-carousel-box">
+                &nbsp; Box
+            </div>
+            <div class="k-carousel-box">
+                &nbsp; Box
+            </div>
+        </div>
+        <button type="button" class="k-carousel-arrow k-carousel-arrow-next">
+            <i class="k-icon-arrow-right-1"></i>
+        </button>
+    </div>
+</div>
+<script>
+    let simpleCrouselE = document.querySelector('#k_simple_carousel');
+    let simpleCarousel = $kl.Carousel.init(simpleCrouselE, {
+        type: 'simple',
+        draggable: false,
+        arrowOpacity: 1,
+        dragSpeed: 1
+    });
+</script>
+<p><strong>Add HTML</strong></p>
+<pre><code class="hljs">&lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"k-carousel k-carousel-simple example-carousel"</span> <span class="hljs-built_in">id</span>=<span class="hljs-string">"k_simple_carousel"</span>&gt;
+    &lt;button type=<span class="hljs-string">"button"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"k-carousel-arrow k-carousel-arrow-prev"</span>&gt;
+        &lt;i <span class="hljs-built_in">class</span>=<span class="hljs-string">"k-icon-arrow-left-1"</span>&gt;&lt;/i&gt;
+    &lt;/button&gt;
+    &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"k-carousel-boxes-wrapper k-carousel-simple-boxes-wrapper"</span>&gt;
+        &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"k-carousel-box"</span>&gt;
+            Box
+        &lt;/<span class="hljs-keyword">div</span>&gt;
+        &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"k-carousel-box"</span>&gt;
+            Box
+        &lt;/<span class="hljs-keyword">div</span>&gt;
+        &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"k-carousel-box"</span>&gt;
+            Box
+        &lt;/<span class="hljs-keyword">div</span>&gt;
+        &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"k-carousel-box"</span>&gt;
+            Box
+        &lt;/<span class="hljs-keyword">div</span>&gt;
+        &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"k-carousel-box"</span>&gt;
+            Box
+        &lt;/<span class="hljs-keyword">div</span>&gt;
+        &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"k-carousel-box"</span>&gt;
+            Box
+        &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;/<span class="hljs-keyword">div</span>&gt;
+    &lt;button type=<span class="hljs-string">"button"</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">"k-carousel-arrow k-carousel-arrow-next"</span>&gt;
+        &lt;i <span class="hljs-built_in">class</span>=<span class="hljs-string">"k-icon-arrow-right-1"</span>&gt;&lt;/i&gt;
+    &lt;/button&gt;
+&lt;/<span class="hljs-keyword">div</span>&gt;
+</code></pre>
+<p><strong>And initialize the component</strong></p>
+<pre><code class="hljs"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-keyword">let</span> simpleCrouselE = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#k_simple_carousel'</span>);
+    <span class="hljs-keyword">let</span> simpleCarousel = $kl.Carousel.init(simpleCrouselE, {
+        <span class="hljs-attr">type</span>: <span class="hljs-string">'simple'</span>,
+        <span class="hljs-attr">draggable</span>: <span class="hljs-literal">false</span>,
+        <span class="hljs-attr">arrowOpacity</span>: <span class="hljs-number">1</span>,
+        <span class="hljs-attr">dragSpeed</span>: <span class="hljs-number">1</span>
+    });
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="options"></a><a href="#options" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Options</h2>
+<h3><a class="anchor" aria-hidden="true" id="commons"></a><a href="#commons" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Commons</h3>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>type</td><td>string</td><td>traditional</td><td>Set carousel type (<code>traditional</code> , <code>continuous</code> , <code>simple</code>)</td></tr>
+<tr><td>boxSpacing</td><td>number</td><td>30</td><td>Right margin in <code>px</code> between boxes</td></tr>
+<tr><td>arrowOpacity</td><td>number</td><td>0</td><td>Set opacity style for carousel arrows</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="traditional-1"></a><a href="#traditional-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Traditional</h3>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>autoplay</td><td>boolean</td><td>true</td><td>Automatically start animation</td></tr>
+<tr><td>dots</td><td>boolean</td><td>true</td><td>Add/remove dots indicators</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="infinite--continuous-1"></a><a href="#infinite--continuous-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Infinite &amp; continuous</h3>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>autoplay</td><td>boolean</td><td>true</td><td>Automatically start animation</td></tr>
+<tr><td>draggable</td><td>boolean</td><td>true</td><td>Add/remove draggable function</td></tr>
+<tr><td>speed</td><td>number</td><td>90</td><td>Set speed of continous animation</td></tr>
+<tr><td>speedBackArrow</td><td>number</td><td>10</td><td>Set speed animation when hovering arrow back</td></tr>
+<tr><td>speedNextArrow</td><td>number</td><td>10</td><td>Set speed animation when hovering arrow next</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="simple"></a><a href="#simple" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Simple</h3>
+<table>
+<thead>
+<tr><th>Name</th><th>Type</th><th>Default</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>draggable</td><td>boolean</td><td>true</td><td>Add/remove draggable function</td></tr>
+<tr><td>dragSpeed</td><td>number</td><td>1</td><td>Set speed when dragging carousel</td></tr>
+</tbody>
+</table>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/test-kukun-docs/docs/components/banners"><span class="arrow-prev">← </span><span>Banners</span></a><a class="docs-next button" href="/test-kukun-docs/docs/components/card-box"><span>Cards</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#traditional">Traditional</a></li><li><a href="#infinite--continuous">Infinite &amp; continuous</a></li><li><a href="#simple-draggable">Simple draggable</a></li><li><a href="#options">Options</a><ul class="toc-headings"><li><a href="#commons">Commons</a></li><li><a href="#traditional-1">Traditional</a></li><li><a href="#infinite--continuous-1">Infinite &amp; continuous</a></li><li><a href="#simple">Simple</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><div class="kukun-copyright-wrapper"><a href="https://mykukun.com" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/test-kukun-docs/img/kukun-logo-desktop.svg" alt="Kukun Logo" width="170" height="45"/></a><section class="copyright">Copyright © 2021 Kukun. All rights reserved.</section></div></footer></div></body></html>
