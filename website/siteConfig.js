@@ -23,15 +23,15 @@ const users = [
 const siteConfig = {
   title: 'Kukun Documentation', // Title for your website.
   tagline: 'Front-end',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://sebasbaezkukun.github.io', // Your website URL
+  baseUrl: '/test-kukun-docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'Kukun Documentation',
-  organizationName: 'Kukun',
+  projectName: 'test-kukun-docs',
+  organizationName: 'SebasBaezKukun',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -88,6 +88,11 @@ const siteConfig = {
     '/kukun-lib/kukun-lib.js'
   ],
   stylesheets: [
+    '/css/code-block-buttons.css',
+    '/kukun-lib/iconography/my-kukun-icons.min.css',
+    '/kukun-lib/kukun-lib.css'
+  ],
+  separateCss: [
     '/css/code-block-buttons.css',
     '/kukun-lib/iconography/my-kukun-icons.min.css',
     '/kukun-lib/kukun-lib.css'
