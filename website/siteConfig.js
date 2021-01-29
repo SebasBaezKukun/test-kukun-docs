@@ -84,14 +84,14 @@ const siteConfig = {
   scripts: [
     'https://buttons.github.io/buttons.js',
     'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
-    '/js/code-block-buttons.js',
-    '/kukun-lib/kukun-lib.js'
+    '/test-kukun-docs/js/code-block-buttons.js',
+    '/test-kukun-docs/kukun-lib/kukun-lib.js'
   ],
-  stylesheets: [
-    '/test-kukun-docs/css/code-block-buttons.css',
-    '/test-kukun-docs/kukun-lib/iconography/my-kukun-icons.min.css',
-    '/test-kukun-docs/kukun-lib/kukun-lib.css'
-  ],
+  // stylesheets: [
+  //   '/test-kukun-docs/css/code-block-buttons.css',
+  //   '/test-kukun-docs/kukun-lib/iconography/my-kukun-icons.min.css',
+  //   '/test-kukun-docs/kukun-lib/kukun-lib.css'
+  // ],
   separateCss: [
     '/test-kukun-docs/css/code-block-buttons.css',
     '/test-kukun-docs/kukun-lib/iconography/my-kukun-icons.min.css',
